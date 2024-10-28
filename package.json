@@ -1,0 +1,27 @@
+{
+  "name": "solana-dex-swap-example",
+  "version": "1.0.0",
+  "description": "An example to swap tokens on Solana using  SDK.",
+  "main": "index.js",
+  "scripts": {
+    "swap": "ts-node ./src/index.ts",
+    "swap2": "ts-node ./src/v2-sdk/swap.ts"
+  },
+  "author": "DZ",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@solana/spl-token": "^0.4.1",
+    "@types/node-fetch": "2",
+    "axios": "^1.7.7",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "https-proxy-agent": "^7.0.5",
+    "node-fetch": "2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2"
+  }
+}
